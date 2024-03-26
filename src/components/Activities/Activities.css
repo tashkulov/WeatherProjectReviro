@@ -1,0 +1,40 @@
+.activities_main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 3% 2%;
+  color: #fff;
+}
+
+.heart_icon {
+  font-size: 1.5em;
+}
+
+.activities_title {
+  font-size: 24px;
+  margin: 0 0 0 1%;
+  font-weight: 500;
+}
+
+.activities_head {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin: 0 0 1% 0;
+}
+
+.activities_items {
+  display: flex;
+  color: #000;
+}
+
+.activity {
+  margin: 10px;
+  width: 25%;
+}
+
+.activities_img > img {
+  width: 100%;
+  border-radius: 10px;
+}

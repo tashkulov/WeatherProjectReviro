@@ -1,0 +1,9 @@
+.user-avatar {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar_img {
+  width: 100%;
+}

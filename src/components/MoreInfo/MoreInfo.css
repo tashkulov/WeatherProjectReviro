@@ -1,0 +1,11 @@
+.more_detailed_info {
+  display: flex;
+}
+
+.more_detailed_info > div {
+  padding: 20px;
+}
+
+.activities_forecast {
+  width: 70%;
+}

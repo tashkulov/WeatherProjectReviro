@@ -1,0 +1,105 @@
+/* Written Info */
+
+.main_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mobile {
+  display: none;
+}
+
+.written_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.city_name {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.city_name svg {
+  margin: 5%;
+}
+
+.weather_detail {
+  font-size: 48px;
+  margin: 0 0 40% 0;
+}
+
+.temperature_info {
+  font-size: 64px;
+}
+
+.local_time {
+  font-size: 18px;
+}
+
+/* Weather Image */
+
+.image_info {
+  width: 40%;
+}
+
+.image_info > img {
+  width: 100%;
+  color: #fff;
+  image-rendering: optimizeQuality;
+
+  filter: blur(0px);
+}
+
+@media screen and (max-width: 430px) {
+  .desktop {
+    display: none !important;
+  }
+
+  .written_info {
+    width: 100%;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .city_name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .city {
+    display: flex;
+  }
+
+  .image_info {
+    width: 80%;
+    margin: auto;
+  }
+
+  .image_info > img {
+    width: 70%;
+    color: #fff;
+    image-rendering: optimizeQuality;
+  }
+
+  .weather_detail {
+    font-size: 36px;
+    margin: 20% 0 0% 0;
+  }
+
+  .temperature_info {
+    font-size: 48px;
+  }
+
+  .local_time {
+    font-size: 18px;
+  }
+}
