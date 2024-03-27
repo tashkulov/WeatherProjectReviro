@@ -84,7 +84,6 @@ const Forecast = ({ city }) => {
 
   return (
       <div>
-        <h2>Weather Forecast</h2>
         {weatherForecast && weatherForecast.list && (
             <div className={'days'}>
               <div className={'arrows'}>
